@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  background-color: #73BE9E;
+  margin: 0;
+}
+.board {
+  text-align: center;
+}
+.board h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #fff;
+  text-align: center;
+}
+.board .create-column {
+  padding: 11px 30px;
+  font-size: 24px;
+  background-color: #EBB56C;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+.board .create-column:hover {
+  background-color: #C48B40;
+  cursor: pointer;
+}
+.column-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.column {
+  text-align: left;
+  margin: 10px;
+  border-radius: 15px;
+  width: 350px;
+  min-height: 300px;
+  padding: 30px;
+  background-color: #A3DBC3;
+  color: #2F2B2B;
+}
+ul {
+  margin: 0;
+  padding: 10px;
+}
+li {
+  padding: 5px;
+  margin: 0;
+  list-style: none;
+  border: dotted 1px #fff;
+}
+.column .column-title {
+  margin: 0;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+.btn-delete {
+  padding: 3px 10px;
+  background-color: #D4F1E5;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.add-card {
+  padding: 3px 12px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background-color: #2C865F;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+p {
+  display: inline-block;
+}
+.card-placeholder {
+  border: dashed; 1px red;
+}
